@@ -1,0 +1,21 @@
+* {
+    font-style: arial;
+}
+
+#navbar {
+    width: 220px;
+    font-size: 14px;
+    align-items: center;
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#Gmail {
+    display: inline-block;
+    padding-left: 0;
+}
+
+#Images {
+    display: inline-block;
+}
