@@ -71,4 +71,6 @@
     background: linear-gradient(top, #4387fd, #4683ea);
     cursor: default;
     text-decoration: none;
+    /*need to figure out how to create a space around this bitch,
+    how to make it white. width, padding? no clue yet*/
 }
