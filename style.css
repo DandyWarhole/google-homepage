@@ -9,6 +9,14 @@
     float: right;
     padding-left: 30px;
     padding-right: 30px;
+    display: flex;
+    justify-content: flex-end; /* flex makes the content appear next to each other
+    and justify-content right aligns it to the right side- end of the flex*/
+}
+
+.links {
+    align-items: center;
+    padding-right: 15px;
 }
 
 .links a:link {
@@ -34,6 +42,7 @@
 #Gmail {
     display: inline-block;
     padding-left: 0;
+    padding-right: 15px;
 }
 
 #Images {
@@ -50,6 +59,16 @@
     width: 30px;
     position: relative;
     vertical-align: middle;
-    /*cant make it appear on the to the images. Might need to review 
-    flexbox and display, maybe there are some problems in navbar*/
+    padding-right: 15px;
+}
+
+#sign {
+    display: block;
+    position: relative;
+    padding-right: 0px;
+    width: 43px;
+    font-weight: bold;
+    background: linear-gradient(top, #4387fd, #4683ea);
+    cursor: default;
+    text-decoration: none;
 }
