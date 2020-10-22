@@ -74,10 +74,17 @@
     border-radius: 2px;
 }
 
+#google-logo {
+    background-color: teal;
+}
+
 #logo {
-    padding-top: 28px;
+    padding-top: 109px;
     width: 272;
     height: 92px;
     display: block;
-    margin: auto;
+}
+/*i have no clue how to center this bitch within the div*/
+#form {
+    position: relative;
 }
