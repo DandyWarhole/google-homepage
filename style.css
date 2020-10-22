@@ -64,13 +64,19 @@
 
 #sign {
     display: block;
-    position: relative;
-    padding-right: 0px;
-    width: 43px;
+    text-align: center;
+    color: white;
     font-weight: bold;
-    background: linear-gradient(top, #4387fd, #4683ea);
+    position: relative;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-origin: padding-box;
+    background: linear-gradient(90deg, #4387fd, #4683ea);
     cursor: default;
     text-decoration: none;
+    border-radius: 2px;
     /*need to figure out how to create a space around this bitch,
     how to make it white. width, padding? no clue yet*/
 }
