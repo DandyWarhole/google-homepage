@@ -87,8 +87,22 @@
     height: 92px;
     display: block;
     margin: auto;
+    /* the logo repositions down when i shrink the page but i have no clue how to deal with it now
+    and i dont want to spend too much time on it*/
 }
-/*i have no clue how to center this bitch within the div*/
+
+#container {
+    text-align: center;
+    background-color: thistle;
+}
+
 #form {
-    position: absolute;
+    right: 50%;
+    display: block;
+}
+
+.style1 {
+    box-sizing: border-box;
+    margin-top: 32px;
+    margin-bottom: 10px;
 }
