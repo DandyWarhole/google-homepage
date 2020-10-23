@@ -13,6 +13,7 @@
     display: flex;
     justify-content: flex-end; /* flex makes the content appear next to each other
     and justify-content right aligns it to the right side- end of the flex*/
+    position: relative;
 }
 
 .links {
@@ -75,7 +76,9 @@
 }
 
 #google-logo {
-    background-color: teal;
+    width: min-content;
+    height: min-content;
+    margin: auto;
 }
 
 #logo {
@@ -83,8 +86,9 @@
     width: 272;
     height: 92px;
     display: block;
+    margin: auto;
 }
 /*i have no clue how to center this bitch within the div*/
 #form {
-    position: relative;
+    position: absolute;
 }
