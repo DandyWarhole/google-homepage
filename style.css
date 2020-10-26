@@ -112,3 +112,43 @@ input[type=text] {
 input:hover {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.20);
 }
+
+button {
+    padding: 0 16px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: #5F6368;
+    background: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    margin: 0 5px;
+}
+
+#buttons {
+    margin-bottom: 26px;
+}
+
+#languages {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+
+#languages a {
+    margin: 0px 3px;
+    color: rgb(26, 13, 171);
+}
+
+#languages a:link {
+    text-decoration: none;
+}
+
+#languages a:visited {
+    text-decoration: none;
+}
+
+#languages a:hover {
+    text-decoration: underline;
+}
+
+#languages a:active {
+    text-decoration: none;
+}
