@@ -3,6 +3,10 @@
     color: #222;
 }
 
+#top {
+    height: 30px;
+}
+
 #navbar {
     width: 220px;
     font-size: 14px;
@@ -86,7 +90,6 @@
     width: 272;
     height: 92px;
     display: block;
-    margin: auto;
     /* the logo repositions down when i shrink the page but i have no clue how to deal with it now
     and i dont want to spend too much time on it*/
 }
@@ -151,4 +154,45 @@ button {
 
 #languages a:active {
     text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 40px;
+    min-width: 400px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-family: Arial, sans-serif;
+    color: #56585a;
+    font-size: 11pt;
+}
+
+#Denmark {
+    height: 40px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-left: 27px;
+    color: #56585a;
+}
+
+#ext-links {
+    padding: 0px 27px;
+    word-spacing: 20px;
+}
+
+#span1 {
+    float: right;
+    color: #56585a;
+}
+
+#span2 {
+    float: left;
+    color: #56585a;
+}
+
+#span3 {
+    word-spacing: normal;
+    color: #56585a;
 }
